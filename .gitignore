@@ -1,0 +1,25 @@
+venv/
+.venv/
+**/mutants/
+**/.hypothesis
+
+# Pytest and coverage artifacts
+.cache/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+*.log
+
+# Pytest result caches (can appear inside any folder)
+**/.pytest_cache/
+**/__pycache__/
+
+# General Python build artifacts (optional but recommended)
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
